@@ -21,6 +21,9 @@ public class LinearDataStructures {
             System.out.println(el + " ");
         }
 
+        // multidimensional primitive arrays:
+        int[][][] cubicArray = new int[255][255][255];
+
         // since primitive arrays are hard to work with, java provides newer apis through the {Collection} APIs
         // Lists are the equivalent to primitive arrays, but require the wrapper types
         // Possible list implementations are: ArrayList, LinkedList
